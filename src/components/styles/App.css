@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+  /*display: flex; !*flexbox*!*/
+  /*align-items: center;*/
+  /*justify-content: flex-start;*/
+  /*width: 800px;*/
+  /*height: 600px;*/
+  /*padding-left: 10px;*/
+  /*margin: 50px auto;*/
+  /*background-color: rgba(0, 0, 205, 0);*/
+  /*border-radius: 10px;*/
+  /*box-shadow: 0 14px 45px rgba(0, 0, 0, 0.22), 0 18px 45px rgba(0, 0, 0, 0.22);*/
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background: blanchedalmond;
+}
+
+.nav-links{
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
